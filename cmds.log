@@ -1,0 +1,145 @@
+    1  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    2  exit
+    3  cd Desktop
+    4  mkdir CS185C
+    5  git init
+    6  touch alexong.txt
+    7  ls
+    8  git status
+    9  git add alexong.txt
+   10  git status
+   11  got commit -m "First commit"
+   12  git commit -m "First commit"
+   13  git config --global user.email ongalex888@gmail.com
+   14  git remote add origin https://github.com/adot18/worksheet1.git
+   15  git push -u origin master
+   16  mkdir worksheet1
+   17  ls
+   18  cd worksheet1
+   19  git init
+   20  touch aong.txt
+   21  ls
+   22  git status
+   23  git add aong.txt
+   24  git status
+   25  git commit -m "First commit"
+   26  Omit --global
+   27  cd desktop
+   28  mkdir worksheet1
+   29  cd worksheet1
+   30  git init
+   31  ls
+   32  git add aong.txt
+   33  git commit -m "First commit"
+   34  history > cmds.log
+   35  ls
+   36  git add cmds.log
+   37  git remote add origin https://github.com/adot18/worksheet1.git
+   38  git push -u origin master
+   39  git push origin master --force
+   40  failed to push some refs to 'https://github.com/adot18/worksheet1.git'
+   41  git remote add origin https://github.com/adot18/worksheet1.git
+   42  git branch -M main
+   43  git push -u origin main
+   44  git remote add origin https://github.com/adot18/worksheet1.git
+   45  git branch -M main
+   46  git push -u origin main
+   47  git init
+   48  git push origin new-branch
+   49  cs /
+   50  cd /
+   51  git init
+   52  cd worksheet1
+   53  mkdir ws1
+   54  cd ~
+   55  cd worksheet1/
+   56  cd ~
+   57  git init
+   58  touch aong.txt
+   59  git init
+   60  history > cmds.log
+   61  git add cmds.log
+   62  git commit -m "Worksheet 1 HW"
+   63  git config --global user.name "aong"
+   64  git config --global user.email "ongalex888@gmail.com"
+   65  git commit -m "Worksheet 1 HW"
+   66  git remote add origin https://github.com/adot18/worksheet1.git
+   67  git push -u origin master
+   68  cd worksheet1
+   69  ls
+   70  git init
+   71  git add cmds.log
+   72  git commit -m "First commit"
+   73  git remote add origin https://github.com/adot18/worksheet1.git
+   74  git push -u origin master 
+   75  git pull origin master
+   76  git log
+   77  history > cmds.log
+   78  git add cmds.log
+   79  git commit -m "Updated cmds.log"
+   80  git push -u origin master 
+   81  passwd
+   82  grep amazon
+   83  ls
+   84  unzip amazon_reviews_us_Books_v1_02.tsv.gz
+   85  mkdir amazon_review
+   86  ls
+   87  pwd
+   88  cd amazon_reviews_us_Books_v1_02.tsv.gz
+   89  -gzip -k amazon_reviews_us_Books_v1_02.tsv.gz
+   90  gzip -k amazon_reviews_us_Books_v1_02_.tsv.gz > amazon_review
+   91  gzip -k amazon_reviews_us_Books_v1_02_.tsv.gz 
+   92  gzip -c amazon_reviews_us_Books_v1_02.tsv.gz
+   93  ls
+   94  del amazon_review
+   95  unzip amazon_reviews_us_books_v1_02.tsv.gz -d amazon_review/
+   96  gzip  amazon_reviews_us_books_v1_02.tsv.gz -d amazon_review/
+   97  rm amazon_reviews_us_Books_v1_02.tsv.gz
+   98  ls
+   99  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  100  ls
+  101  cat amazon_reviews_us_Books_v1_02.tsv.gz
+  102  ls
+  103  gunzip amazon_review_us_Books_v1_02.tsv.gz
+  104  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  105  ls
+  106  cat amazon_reviews_us_Books_v1_02.tsv 
+  107  ls
+  108  fgrep -f verified amazon_reviews_us_Books_v1_02.tsv 
+  109  fgrep
+  110  'grep --help
+  111  '
+  112  grep --help
+  113  grep verified amazon_reviews_us_Books_v1_02.tsv 
+  114  ls
+  115  grep -i verified amazon_reviews_us_Books_v1_02.tsv 
+  116  vi amazon_reviews_us_Books_v1_02.tsv 
+  117  ls
+  118  grep purchased
+  119  ls
+  120  grep purchased amazon_reviews_us_Books_v1_02.tsv 
+  121  grep Y  amazon_reviews_us_Books_v1_02.tsv 
+  122  sort amazon_reviews_us_Books_v1_02.tsv 
+  123  egrep \tverified\t
+  124  egrep \tverified\t amazon_reviews_us_Books_v1_02.tsv 
+  125  ls
+  126  grep verified amazon_reviews_us_Books_v1_02.tsv 
+  127  grep verified amazon_reviews_us_Books_v1_02.tsv > verified.txt
+  128  grep -v verified amazon_reviews_us_Books_v1_02.tsv > unverified.txt
+  129  ls
+  130  wc verified.txt > counts.txt
+  131  wc unverified.txt >> counts.txt 
+  132  ls
+  133  rm counts.txt
+  134  rm unverified.txt 
+  135  rm verified.txt 
+  136  ls
+  137  grep verified amazon_reviews_us_Books_v1_02.tsv > verified.txt
+  138  grep -v verified amazon_reviews_us_Books_v1_02.tsv > unverified.txt
+  139  wc verified.txt > counts.txt
+  140  wc unverified.txt >> counts.txt
+  141  vi counts.txt
+  142  vim counts.txt 
+  143  git init
+  144  git add counts.txt 
+  145  history > cmds.log
