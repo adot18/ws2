@@ -143,3 +143,80 @@
   143  git init
   144  git add counts.txt 
   145  history > cmds.log
+  146  git add cmds.log
+  147  git commit -m "CMDS.LOG and COUNTS.TXT"
+  148  git remote add origin https://github.com/adot18/ws2.git
+  149  nano cmds.log
+  150  ls
+  151  mv cmds.log amazon_review
+  152  mv counts.txt amazon_review
+  153  cd amazon_review/
+  154  ls
+  155  git init
+  156  git remote add origin https://github.com/adot18/ws2.git
+  157  git add cmds.log
+  158  git add counts.txt
+  159  git commit -m "CMDS.LOG and COUNTS.TXT"
+  160  git push -u origin master
+  161  grep Y verified.txt > Yverified.txt
+  162  wc Yverified.txt 
+  163  ;s
+  164  ls
+  165  rm verified.txt
+  166  rm unverified.txt
+  167  rm Yverified.txt 
+  168  ls
+  169  rm cmds.log.save 
+  170  ls
+  171  cut -d'   ' -f12 amazon_reviews_us_Books_v1_02.tsv
+  172  awk -F"\t" '{print $12}' amazon_reviews_us_Books_v1_02.tsv
+  173  grep Y amazon_review > Yverified.txt
+  174  ls
+  175  cd amazon_review/
+  176  ls
+  177  .
+  178  /.
+  179  l
+  180  cd ..
+  181  ls
+  182  nano amazon_reviews_us_Books_v1_02.tsv 
+  183  ls
+  184  wc Yverified.txt
+  185  rm Yverified.txt
+  186  ls
+  187  wc amazon_reviews_us_Books_v1_02.tsv 
+  188  ls
+  189  rm amazon_reviews_us_Books_v1_02.tsv 
+  190  ls
+  191  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  192  ls
+  193  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+  194  ls
+  195  awk -F"\t" '{print $12}' amazon_reviews_us_Books_v1_02.tsv > verified.txt
+  196  grep Y verified.txt > Yverified.txt
+  197  grep N verified.txt > Nverified.txt
+  198  wc Yverified.txt 
+  199  cd amazon_review/
+  200  ls
+  201  del cmds.log
+  202  rm cmds.log
+  203  rm counts.txt 
+  204  cd .
+  205  ls
+  206  cd ..
+  207  ls
+  208  mv Nverified.txt amazon_review
+  209  ls
+  210  mv verified.txt amazon_review
+  211  mv Yverified.txt amazon_review
+  212  ls
+  213  cd amazon_review/
+  214  ls
+  215  wc Yverified.txt > count.txt
+  216  ls
+  217  wc Nverified.txt >> count.txt
+  218  cat count.txt
+  219  nano count.txt
+  220  ls
+  221  nano count.txt
+  222  history > cmds.log
